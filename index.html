@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator Project</title>
+  <link rel="stylesheet" href="assets/style.css"/>
+  <script src="assets/script.js"></script>
+</head>
+<body>
+  <div class="calculator">
+    <input id="output" value="0" readonly />
+    <div class="cal-items">
+      <button class="cal-btn operation" onclick = 'allClearValue()'>AC</button> 
+      <button class="cal-btn operation" onclick = 'clearLastValue()'>C</button> 
+      <button class="cal-btn operation" onclick = 'displayClickedValue("%")'>%</button> 
+      <button class="cal-btn operation" onclick = 'displayClickedValue("/")'>/</button> 
+      <button class="cal-btn" onclick = 'displayClickedValue("7")'>7</button> 
+      <button class="cal-btn" onclick = 'displayClickedValue("8")'>8</button> 
+      <button class="cal-btn" onclick = 'displayClickedValue("9")'>9</button> 
+      <button class="cal-btn operation" onclick = 'displayClickedValue("*")'>*</button> 
+      <button class="cal-btn" onclick = 'displayClickedValue("4")'>4</button> 
+      <button class="cal-btn" onclick = 'displayClickedValue("5")'>5</button> 
+      <button class="cal-btn" onclick = 'displayClickedValue("6")'>6</button> 
+      <button class="cal-btn operation" onclick = 'displayClickedValue("-")'>-</button> 
+      <button class="cal-btn" onclick = 'displayClickedValue("1")'>1</button> 
+      <button class="cal-btn" onclick = 'displayClickedValue("2")'>2</button> 
+      <button class="cal-btn" onclick = 'displayClickedValue("3")'>3</button> 
+      <button class="cal-btn operation" onclick = 'displayClickedValue("+")'>+</button> 
+      <button class="cal-btn" onclick = 'displayClickedValue("0")'>0</button> 
+      <button class="cal-btn" onclick = 'displayClickedValue(".")'>.</button> 
+      <button class="cal-btn equal" onclick = 'result()'>=</button> 
+
+    </div>
+  </div>
+</body>
+</html>
